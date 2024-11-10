@@ -2,6 +2,7 @@
   "dependencies": {
     "asciiart-logo": "^0.2.7",
     "bcrypt": "^5.1.1",
+    "express": "^4.21.1",
     "inquirer": "^8.2.4",
     "pg": "^8.13.1",
     "postgres": "^3.4.5"
