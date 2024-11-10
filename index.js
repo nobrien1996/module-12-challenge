@@ -151,7 +151,7 @@ function viewMinionsByDepartment() {
         let departments = rows;
         const departmentChoices = departments.map(({ id, name }) => ({
             name: name,
-            value: value,
+            value: id,
         }));
         prompt([
             {
@@ -293,7 +293,7 @@ function updateMinionOverlord() {
                         choices: overlordChoices,
                     },
                 ])
-                    .then((rest) => db.updateMinionOverlord(minionId, res.overlordId))
+                    .then((rest) => db.updateMinionOverlord(minionId, rest.overlordId))
                     .then(() => console.log('Gave this minion a new overlord'))
                     .then(() => loadMainPrompts());
             });

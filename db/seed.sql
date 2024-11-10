@@ -19,8 +19,8 @@ VALUES
     ('Workshop Lackey', 40000, 2),
     ('Money Laundering Overlord', 400000, 3),
     ('Money Launderer', 50000, 3),
-    ('Propoganda Overlord', 350000, 4),
-    ('Propoganda Artist', 50000, 4),
+    ('Propaganda Overlord', 350000, 4),
+    ('Propaganda Artist', 50000, 4);
 
 INSERT INTO minion
     (first_name, last_name, role_id, overlord_id)
